@@ -1,0 +1,13 @@
+# 本地产物 / 临时验证（截图、验证脚本等，不入库）
+效果/
+.verify/
+.buddy-attachments/
+
+# 依赖与构建
+node_modules/
+*.log
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+*.tmp

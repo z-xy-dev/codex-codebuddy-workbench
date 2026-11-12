@@ -1,0 +1,40 @@
+{
+  "name": "codex-codebuddy-workbench",
+  "version": "0.1.0",
+  "description": "Open the current project in a CodeBuddy-style workbench: file tree with git badges, tabbed file preview, hideable web terminal on a real PTY, and a chat panel bridged to codex exec.",
+  "author": {
+    "name": "ZXY"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codebuddy",
+    "layout",
+    "workbench",
+    "file tree",
+    "terminal",
+    "preview",
+    "git",
+    "ide",
+    "ui"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CodeBuddy Workbench",
+    "shortDescription": "CodeBuddy-style workbench for Codex projects",
+    "longDescription": "Launch a local browser workbench that mirrors the CodeBuddy IDE layout: left file tree with git status badges, tabbed preview for code / Markdown / images / PDF, a hideable bottom terminal backed by a real PTY with shell switching, and a right-hand chat panel wired to codex exec so the agent keeps working in the same project. Column widths and visibility persist.",
+    "developerName": "ZXY",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "用 CodeBuddy 布局打开当前项目",
+      "打开工作台布局，我要看文件树和终端",
+      "关闭工作台"
+    ],
+    "brandColor": "#2F7FD4",
+    "screenshots": []
+  }
+}
